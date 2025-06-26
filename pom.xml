@@ -34,11 +34,11 @@
                     <cloudhub2Deployment>
                         <uri>https://anypoint.mulesoft.com</uri>
                         <provider>MC</provider>
-                        <environment>${environment}</environment>
+                        <environment>${env}</environment>
                         <target>${targetName}</target>
-                        <muleVersion>${muleVersion}</muleVersion>
-      					<username>${user}</username>
-      					<password>${pass}</password>
+                        <muleVersion>${mule.version}</muleVersion>
+      					<username>${anypoint.username}</username>
+      					<password>${anypoint.password}</password>
                         <server>Repository</server>
                         <applicationName>${appName}</applicationName>
                         <replicas>1</replicas>
